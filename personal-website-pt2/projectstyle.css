@@ -84,6 +84,10 @@ h1 {
   background-color: lightgray;
 }
 
+.project:hover {
+  background-color: pink;
+}
+
 h2 {
   display: block;
   font-size: 1em;

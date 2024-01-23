@@ -5,46 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="projectstyle.css" />
-    <script defer src="script.js"></script>
   </head>
   <body>
-    <header>
-      <div>
-        <h1>My Portfolio</h1>
+    <nav>
+      <div id="logo">
+        <h1>Carly Zimmerman</h1>
       </div>
-      <nav>
+      <div id="links">
         <a href="home.html">Home</a>
         <a href="about.html">About Me</a>
-        <a href="projects.html">Portfolio</a>
-      </nav>
-    </header>
-    <h2>Projects I've Worked On</h2>
-    <section>
-      <h3>Project 1</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
-      </p>
-    </section>
-    <section>
-      <h3>Project 2</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
-      </p>
-    </section>
-    <section>
-      <h3>Project 3</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
-      </p>
-    </section>
+        <a class="active" href="projects.html">Portfolio</a>
+        <a href="contact.html">Contact Me</a>
+      </div>
+    </nav>
+    <main>
+      <h1 id="project-header">Projects I've worked on:</h1>
+      <div id="project-container">
+        <section class="project">
+          <h2>First Project</h2>
+          <div class="project-content">
+            <p>Lorem ipsum</p>
+          </div>
+        </section>
+        <section class="project">
+          <h2>Second Project</h2>
+          <div class="project-content">
+            <p>Lorem ipsum</p>
+          </div>
+        </section>
+        <section class="project">
+          <h2>Third Project</h2>
+          <div class="project-content">
+            <p>Lorem ipsum</p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer></footer>
   </body>
 </html>

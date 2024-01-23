@@ -1,0 +1,101 @@
+/* Reset Settings */
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header Styling */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 6rem;
+  width: 100vw;
+
+  border: 1px solid black;
+
+  background-color: rgb(250, 125, 146);
+}
+
+h1 {
+  margin-left: 1rem;
+  color: white;
+  font-size: medium;
+}
+
+nav > a {
+  margin-right: 0.7rem;
+  font-size: 1rem;
+  color: white;
+}
+
+/* Main Styling */
+
+main {
+  min-height: 80vh;
+  min-width: 70vw;
+  background-color: white;
+}
+
+aside {
+  min-height: 80vh;
+  min-width: 15vw;
+  background-color: lightgray;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body > div {
+  display: flex;
+  width: fit-content;
+}
+
+/* Footer Styling */
+
+footer {
+  width: 100vw;
+  background-color: rgb(250, 125, 146);
+  border: 1px solid black;
+  height: 6rem;
+  display: flex;
+}
+
+footer > nav {
+  margin-top: 2.5rem;
+  margin-left: 45%;
+}
+
+/* Main Content Styling - Home Page */
+
+img {
+  width: 390px;
+  height: 400px;
+  float: right;
+  margin-right: 20px;
+}
+
+section > h2 {
+  font-size: xx-large;
+  text-decoration: underline;
+}
+
+section > h4 {
+  font-size: larger;
+}
+
+section > h3 {
+  clear: right;
+  text-align: center;
+  font-size: xx-large;
+  font-family: fantasy;
+}

@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background-color: lightgray;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header Styling */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 6rem;
+  width: 100vw;
+
+  border: 1px solid black;
+
+  background-color: rgb(250, 125, 146);
+}
+
+h1 {
+  margin-left: 1rem;
+  color: white;
+  font-size: larger;
+}
+
+nav > a {
+  margin-right: 0.7rem;
+  font-size: 1rem;
+  color: white;
+}
+
+/* Main Content Styling */
+
+#about-header {
+  font-size: larger;
+  text-align: center;
+}
+
+.about-section {
+  border: 2px solid black;
+  margin-top: 10px;
+}

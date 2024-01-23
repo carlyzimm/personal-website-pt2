@@ -101,6 +101,10 @@ textarea {
   box-shadow: 0 0 12px -2px gray;
 }
 
+#submit:hover {
+  background-color: rgb(221, 203, 206);
+}
+
 footer {
   background-color: pink;
   height: 70px;

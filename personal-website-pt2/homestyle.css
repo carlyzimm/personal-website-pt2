@@ -8,94 +8,103 @@ body {
   box-sizing: border-box;
 }
 
-/* Header Styling */
+/* Body Styling */
 
-header {
-  display: flex;
-  justify-content: space-between;
+body {
+  background-color: white;
+  height: 100vh;
+  padding: 0;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+div {
+  display: block;
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  right: 0;
   align-items: center;
-
-  height: 6rem;
-  width: 100vw;
-
-  border: 1px solid black;
-
-  background-color: rgb(250, 125, 146);
+  background-color: pink;
+  color: white;
+  display: flex;
+  height: 80px;
+  padding: 10px;
+  justify-content: space-between;
 }
 
 h1 {
-  margin-left: 1rem;
-  color: white;
-  font-size: medium;
+  font-size: 2em;
+  font-family: "Courier New", Courier, monospace;
 }
 
-nav > a {
-  margin-right: 0.7rem;
-  font-size: 1rem;
-  color: white;
+.active {
+  border-bottom: 1px solid white;
 }
 
-/* Main Styling */
+a {
+  color: white;
+  text-decoration: none;
+  font-size: x-large;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 5px;
+}
 
 main {
-  min-height: 80vh;
-  min-width: 70vw;
-  background-color: white;
-}
-
-aside {
-  min-height: 80vh;
-  min-width: 15vw;
-  background-color: lightgray;
-}
-
-body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
-body > div {
-  display: flex;
-  width: fit-content;
+main {
+  min-height: 100vh;
+  padding: 85px 24px 96px;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
 }
-
-/* Footer Styling */
-
-footer {
-  width: 100vw;
-  background-color: rgb(250, 125, 146);
-  border: 1px solid black;
-  height: 6rem;
-  display: flex;
-}
-
-footer > nav {
-  margin-top: 2.5rem;
-  margin-left: 45%;
-}
-
-/* Main Content Styling - Home Page */
 
 img {
-  width: 390px;
-  height: 400px;
-  float: right;
-  margin-right: 20px;
+  height: 310px;
+  width: 300px;
 }
 
-section > h2 {
-  font-size: xx-large;
-  text-decoration: underline;
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
-section > h4 {
-  font-size: larger;
+p {
+  display: block;
 }
 
-section > h3 {
-  clear: right;
+main .quote {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(249, 109, 133);
+  font-size: 50px;
+  font-weight: 100;
   text-align: center;
-  font-size: xx-large;
-  font-family: fantasy;
+}
+
+h3 {
+  display: block;
+}
+
+footer {
+  background-color: pink;
+  height: 70px;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
 }

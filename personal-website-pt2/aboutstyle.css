@@ -18,10 +18,6 @@ body {
   margin: 0 auto;
 }
 
-div {
-  display: block;
-}
-
 nav {
   position: fixed;
   left: 0;
@@ -31,7 +27,7 @@ nav {
   color: white;
   display: flex;
   height: 80px;
-  padding: 10px;
+  padding: 1rem;
   justify-content: space-between;
 }
 
@@ -49,12 +45,12 @@ a {
   text-decoration: none;
   font-size: x-large;
   font-family: "Courier New", Courier, monospace;
-  margin: 0 5px;
+  margin: 0 10px;
 }
 
 main {
   min-height: 100vh;
-  padding: 85px 24px 96px;
+  padding: 90px 26px 90px;
   color: black;
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
@@ -68,7 +64,6 @@ main {
 }
 
 main > h1 {
-  display: block;
   font-weight: bolder;
   font-family: "Courier New", Courier, monospace;
   text-decoration: underline;
@@ -81,35 +76,33 @@ section {
 }
 
 section {
-  display: block;
   margin-bottom: 20px;
 }
 
 h2 {
-  display: block;
   font-size: 1.5em;
   font-weight: bold;
 }
 
 .about-section:nth-of-type(1) > img {
   float: right;
-  margin: 0 24px 24px 24px;
+  margin: 0 30px 30px 30px;
 }
 
 .about-section:nth-of-type(2) > img {
   float: right;
-  margin: 0 24px 24px 24px;
+  margin: 0 30px 30px 30px;
 }
 
 .about-section:nth-of-type(3) > img {
   float: right;
-  margin: 0 24px 24px 24px;
+  margin: 0 30px 30px 30px;
 }
 
 footer {
   background-color: pink;
   height: 70px;
-  padding: 10px;
+  padding: 1rem;
   position: fixed;
   left: 0;
   right: 0;
